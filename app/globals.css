@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(
+          #111 25%,       /* Red at 25% */
+          #271F70 50%,       /* Green at 50% */
+          #111 75%,       /* Blue at 75% */
+          #2C275B 100%       /* Yellow at 100% */
+        );
+      }
+      
