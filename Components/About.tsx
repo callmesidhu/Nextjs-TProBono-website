@@ -1,9 +1,11 @@
+"use client";
+
 import React from 'react';
 import './About.css';
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className='flex  mx-14 justify-center w-full h-full flex-col'>
       <h2>Who are we?</h2>
       <p>Driven by a desire to
 transform society through

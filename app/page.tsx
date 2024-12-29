@@ -1,3 +1,5 @@
+"use client";
+
 import About from "@/Components/About";
 import Contact from "@/Components/Contact";
 import Intro from "@/Components/Intro";
@@ -12,11 +14,7 @@ export default function Home() {
       <section>
         <div className="h-screen flex items-center justify-center flex-col">
           <Intro />
-        
-        <Projects />
-        <Services />
-        <About />
-        <Contact />
+          <About />
         </div>
       </section>
     </div>
