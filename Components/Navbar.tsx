@@ -1,46 +1,47 @@
+
+
 import React from 'react';
-import Image from 'next/image';
 
 
 const Navbar = () => {
   return (
     <nav className=" text-white p-4">
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+      <div className="flex justify-between items-center max-w-7xl ">
         {/* Logo Section */}
         <div className="text-2xl font-bold">
           {/* Add your image here */}
-          <Image
-            src='/Image/logo.png'  
-            alt="Logo"
-            width={50} 
-            height={50}
-            className="h- w-auto" />
+          <img 
+        src="/Images/logo.png" 
+        alt="TProBono Logo" 
+        style={{ width: '120px', height: 'auto' }} 
+        className=" h-auto " // Adjust size as needed
+      />
         </div>
 
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="#intro" className="hover:text-gray-300">
+            <a href="#intro" className="text-9xl hover:text-gray-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-gray-300">
+            <a href="#projects" className="text-9xl hover:text-gray-300">
               Projects
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-gray-300">
+            <a href="#services" className="text-9xl hover:text-gray-300">
               Services
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-gray-300">
+            <a href="#about" className="text-9xl hover:text-gray-300">
               About
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-gray-300">
+            <a href="#contact" className="text-9xl hover:text-gray-300">
               Contact
             </a>
           </li>
