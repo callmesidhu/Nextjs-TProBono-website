@@ -10,13 +10,14 @@ export default function Home() {
     <div className="App flex-col flex-1">
       <Navbar />
       <section>
-        <div className="h-screen flex items-center justify-center">
+        <div className="h-screen flex items-center justify-center flex-col">
           <Intro />
-        </div>
+        
         <Projects />
         <Services />
         <About />
         <Contact />
+        </div>
       </section>
     </div>
   );

@@ -7,7 +7,7 @@ const Intro = () => {
       <img 
         src="/Images/logo.png" 
         alt="TProBono Logo" 
-        className="w-32 h-32 mb-4" // Adjust size as needed
+        style={{ width: '350px', height: 'auto' }}  // Adjust size as needed
       />
       <h1 className="text-4xl font-bold text-white">
         <u>TProBono</u>

@@ -5,8 +5,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className=" text-white p-4">
-      <div className="flex justify-between items-center max-w-7xl ">
+    <nav className=" text-white p-4 ">
+      <div className="flex justify-between items-center max-w-7xl mx-4">
         {/* Logo Section */}
         <div className="text-2xl font-bold">
           {/* Add your image here */}
@@ -19,29 +19,29 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-8 ">
           <li>
-            <a href="#intro" className="text-9xl hover:text-gray-300">
+            <a href="#intro" className="text-2xl hover:text-gray-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#projects" className="text-9xl hover:text-gray-300">
+            <a href="#projects" className="text-2xl hover:text-gray-300">
               Projects
             </a>
           </li>
           <li>
-            <a href="#services" className="text-9xl hover:text-gray-300">
+            <a href="#services" className="text-2xl hover:text-gray-300">
               Services
             </a>
           </li>
           <li>
-            <a href="#about" className="text-9xl hover:text-gray-300">
+            <a href="#about" className="text-2xl hover:text-gray-300">
               About
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-9xl hover:text-gray-300">
+            <a href="#contact" className="text-2xl hover:text-gray-300">
               Contact
             </a>
           </li>
