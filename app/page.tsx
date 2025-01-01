@@ -15,6 +15,9 @@ export default function Home() {
         <div className="h-screen flex items-center justify-center flex-col">
           <Intro />
           <About />
+          <Projects />
+          <Services />
+          <Contact />
         </div>
       </section>
     </div>
