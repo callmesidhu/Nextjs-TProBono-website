@@ -14,22 +14,22 @@ const Contact = () => {
         {/* Phone */}
         <div className="flex items-center space-x-4 mb-4">
           <FaPhone className="text-green-500 w-8 h-8" aria-label="Phone" />
-          <span className="text-2xl">9876546302</span>
+          <span className="text-2xl">+917909109636</span>
         </div>
         {/* Email */}
         <div className="flex items-center space-x-4">
           <FaEnvelope className="text-blue-500 w-8 h-8" aria-label="Email" />
-          <span className="text-2xl">sidharth@gmail.co.org</span>
+          <span className="text-2xl">tprobono@gmail.com</span>
         </div>
         {/* Social Links */}
         <div className="flex space-x-4 mt-4">
-          <a href="https://wa.me/9876546302" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <a href="https://wa.me/+917909109636" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
             <FaWhatsapp className="text-green-500 w-8 h-8" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/t.pro_bono/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="text-pink-500 w-8 h-8" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/t-pro-bono/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="text-blue-500 w-8 h-8" />
           </a>
         </div>

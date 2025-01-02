@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,12 +14,12 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-7xl mx-4">
         {/* Logo Section */}
         <div className="text-2xl font-bold">
-          <img
-            src="/Images/logo.png"
-            alt="TProBono Logo"
-            style={{ width: '100px', height: 'auto' }}
-            className="h-auto"
-          />
+        <Image 
+          src="/Images/logo.png" 
+          alt="TProBono Logo" 
+          width={100} 
+          height={100} 
+        />
         </div>
 
         {/* Navigation Links */}
