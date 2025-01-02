@@ -8,14 +8,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white p-4">
+    <nav className="text-white p-3 px-4">
       <div className="flex justify-between items-center max-w-7xl mx-4">
         {/* Logo Section */}
         <div className="text-2xl font-bold">
           <img
             src="/Images/logo.png"
             alt="TProBono Logo"
-            style={{ width: '120px', height: 'auto' }}
+            style={{ width: '100px', height: 'auto' }}
             className="h-auto"
           />
         </div>
