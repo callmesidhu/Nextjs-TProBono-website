@@ -4,7 +4,7 @@ import './Intro.css';
 
 const Intro = () => {
   return (
-    <div className="flex items-center justify-center w-full h-full text-center flex-col">
+    <div className="flex items-center justify-center w-full h-full text-center flex-col ">
       <img 
         src="/Images/logo.png" 
         alt="TProBono Logo" 

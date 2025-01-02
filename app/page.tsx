@@ -7,11 +7,17 @@ import Navbar from "@/Components/Navbar";
 import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
 
+
 export default function Home() {
   return (
-    <div className="App flex-col flex">
+    <div className="App flex-col flex pb-4">
+      <section className="lgbg">
       <Navbar />
       <Intro />
+      <About />
+      </section>
+      <Projects />
+
     </div>
   );
 }

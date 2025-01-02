@@ -9,4 +9,6 @@ body {
         font-family: Inria Serif, serif;
         background-color: black;
       }
-      
+.lgbg{
+        background: linear-gradient(to bottom, #000000 0%, #2C275B 50%, #000000 100%)
+}
