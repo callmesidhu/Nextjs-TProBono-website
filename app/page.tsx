@@ -17,6 +17,7 @@ export default function Home() {
       <About />
       </section>
       <Projects />
+      <Services />
 
     </div>
   );
