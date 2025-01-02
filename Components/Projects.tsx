@@ -22,7 +22,7 @@ const Projects = () => {
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
       <div className="flex flex-col lg:flex-row justify-center gap-6">
         <div
-          className="w-64 h-auto flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform"
+          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform"
           onClick={() =>
             showPopup(
               "Smart Drinking Waters at CET",
@@ -35,7 +35,7 @@ const Projects = () => {
           </h1>
         </div>
         <div
-          className="w-64 h-auto flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
+          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
           onClick={() =>
             showPopup(
               "Innovation Mentorship Programme",
@@ -48,7 +48,7 @@ const Projects = () => {
           </h1>
         </div>
         <div
-          className="w-64 h-auto min-h-28 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
+          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
           onClick={() =>
             showPopup(
               "T-PADANAMURI",
@@ -67,7 +67,7 @@ const Projects = () => {
       {/* Popup Modal */}
       {popup.visible && (
         <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50 flex justify-center items-center">
-          <div className="bg-white text-black p-4 rounded-lg shadow-lg w-[90%] lg:w-[50%] relative max-h-[80vh] overflow-y-auto">
+          <div className="bg-black text-white p-4 rounded-lg shadow-lg w-[90%] lg:w-[50%] relative max-h-[80vh] overflow-y-auto">
             {/* Close Button */}
             <button
               className=" top-2 right-2 text-gray-600 hover:text-gray-800"

@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from 'react-
 
 const Contact = () => {
   return (
-    <div className="flex flex-col lg:flex-row text-white min-h-screen">
+    <div id="contact" className="flex flex-col lg:flex-row text-white min-h-screen">
       {/* Left Portion */}
       <div className="flex-1 flex flex-col justify-center items-center p-8">
         <h2 className="text-3xl font-bold m-4 my-8">

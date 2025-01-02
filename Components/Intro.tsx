@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Intro = () => {
   return (
-    <div className="flex items-center justify-center w-full h-full text-center flex-col ">
+    <div id="intro" className="flex items-center justify-center w-full h-full text-center flex-col ">
       <Image 
   src="/Images/logo.png" 
   alt="TProBono Logo" 
