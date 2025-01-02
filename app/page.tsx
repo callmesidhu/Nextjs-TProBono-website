@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className="App flex-col flex">
       <Navbar />
+      <Intro />
     </div>
   );
 }

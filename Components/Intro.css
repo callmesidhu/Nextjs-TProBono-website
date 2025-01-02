@@ -1,8 +1,10 @@
-body{
-        background: linear-gradient(
-                #000 0%,       
-                #271F70 50%,      
-                #111 75%,       
-                #271F70 100%       
-              );
-}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.intro-font{
+        font-family: "Instrument Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }

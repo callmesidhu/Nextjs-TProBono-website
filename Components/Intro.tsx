@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import './Intro.css';
 
 const Intro = () => {
   return (
@@ -9,10 +10,10 @@ const Intro = () => {
         alt="TProBono Logo" 
         style={{ width: '350px', height: 'auto' }}  // Adjust size as needed
       />
-      <h1 className="text-4xl font-bold text-white">
-        <u>TProBono</u>
+      <h1 className="text-4xl lg:text-[80px] sm:text-4xl font-bold text-white intro-font">
+        <u>T Pro Bono</u>
       </h1>
-      <h2 className="text-lg text-white">Technology for public goods</h2>
+      <h2 className="text-lg text-white intro-font">Technology for public goods</h2>
     </div>
   );
 };

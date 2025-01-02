@@ -74,7 +74,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <ul
-        className={`-z-30 flex-col space-y-4 mt-4 md:hidden ${
+        className={`z-50 absolute justify-center items-center flex-col space-y-4 md:hidden ${
           isMobileMenuOpen ? 'flex' : 'hidden'
         }`}
         id="mobile-menu"
