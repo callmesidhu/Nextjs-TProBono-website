@@ -9,17 +9,8 @@ import Services from "@/Components/Services";
 
 export default function Home() {
   return (
-    <div className="App flex-col flex-1">
+    <div className="App flex-col flex">
       <Navbar />
-      <section>
-        <div className="h-screen flex items-center justify-center flex-col">
-          <Intro />
-          <About />
-          <Projects />
-          <Services />
-          <Contact />
-        </div>
-      </section>
     </div>
   );
 }

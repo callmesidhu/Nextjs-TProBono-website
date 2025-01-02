@@ -1,25 +1,27 @@
-
-
-import React from 'react';
-
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
-    <nav className=" text-white p-4 ">
+    <nav className="text-white p-4">
       <div className="flex justify-between items-center max-w-7xl mx-4">
         {/* Logo Section */}
         <div className="text-2xl font-bold">
-          {/* Add your image here */}
-          <img 
-        src="/Images/logo.png" 
-        alt="TProBono Logo" 
-        style={{ width: '120px', height: 'auto' }} 
-        className=" h-auto " // Adjust size as needed
-      />
+          <img
+            src="/Images/logo.png"
+            alt="TProBono Logo"
+            style={{ width: '120px', height: 'auto' }}
+            className="h-auto"
+          />
         </div>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 ">
+        <ul className="hidden md:flex space-x-8">
           <li>
             <a href="#intro" className="text-2xl hover:text-gray-300">
               Home
@@ -51,6 +53,7 @@ const Navbar = () => {
         <button
           className="block md:hidden text-white focus:outline-none"
           id="menu-btn"
+          onClick={toggleMenu}
         >
           <svg
             className="h-6 w-6"
@@ -71,7 +74,9 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <ul
-        className="flex-col space-y-4 mt-4 md:hidden hidden"
+        className={`-z-30 flex-col space-y-4 mt-4 md:hidden ${
+          isMobileMenuOpen ? 'flex' : 'hidden'
+        }`}
         id="mobile-menu"
       >
         <li>
