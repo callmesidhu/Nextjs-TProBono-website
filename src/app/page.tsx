@@ -21,7 +21,8 @@ export default function Home() {
       <Services />
       <hr className="w-[90%] h-1 mx-auto my-8 bg-gray-100 border-0 rounded "></hr>
       <Contact />
-      <hr className="w-[90%] h-1 mx-auto my-8 bg-gray-100 border-0 rounded "></hr>
+      <hr className="w-[90%] h-1 mx-auto my-2 bg-gray-100 border-0 rounded "></hr>
+      <p className='text-center text-sm mb-4 my-2'>© TProbono (CET) &nbsp; 2025</p>
       </section>
     </div>
   );

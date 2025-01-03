@@ -5,6 +5,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
+    <div>
     <div id="contact" className="flex flex-col lg:flex-row text-white ">
       {/* Left Portion */}
       <div className="flex-1 flex flex-col justify-center items-center p-8">
@@ -53,6 +54,7 @@ const Contact = () => {
         ></iframe>
       </div>
     </div>
+     </div>
   );
 };
 
