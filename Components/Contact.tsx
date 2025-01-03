@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from 'react-icons/fa';
+import './Contact.css';
 
 const Contact = () => {
   return (
