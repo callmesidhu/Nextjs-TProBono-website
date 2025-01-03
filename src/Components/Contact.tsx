@@ -15,7 +15,7 @@ const Contact = () => {
         {/* Phone */}
         <div className="flex items-center space-x-4 mb-4">
           <FaPhone className="text-green-500 w-8 h-8" aria-label="Phone" />
-          <span className="text-2xl">+917909109636</span>
+          <span className="text-2xl">+91 790 910 9636</span>
         </div>
         {/* Email */}
         <div className="flex items-center space-x-4">
