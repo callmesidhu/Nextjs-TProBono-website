@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import "./Projects.css";
+import Image from 'next/image';
 
 const Projects = () => {
   const [popup, setPopup] = useState<{ visible: boolean; title: string; message: string }>({
@@ -22,7 +23,7 @@ const Projects = () => {
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
       <div className="flex flex-col lg:flex-row justify-center gap-6">
         <div
-          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform"
+          className="w-64 flex-col p-3 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform"
           onClick={() =>
             showPopup(
               "Smart Drinking Waters at CET",
@@ -30,12 +31,19 @@ const Projects = () => {
             )
           }
         >
-          <h1>
+          <h1 className='my-2'>
             <u>Smart Drinking Waters at CET</u>
           </h1>
+          <Image 
+            src="/Images/p1.jpg" 
+            alt="o" 
+            width={300} 
+            height={400} 
+            className='rounded-2xl m-4'
+          />
         </div>
         <div
-          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
+          className="w-64 flex-col p-3 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
           onClick={() =>
             showPopup(
               "Innovation Mentorship Programme",
@@ -43,12 +51,19 @@ const Projects = () => {
             )
           }
         >
-          <h1>
+          <h1 className='my-2'>
             <u>Innovation Mentorship Programme</u>
           </h1>
+          <Image 
+            src="/Images/p2.jpg" 
+            alt="" 
+            width={300} 
+            height={400} 
+            className='rounded-2xl m-4'
+          />
         </div>
         <div
-          className="w-64 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
+          className="w-64 flex-col p-3 h-auto min-h-24 flex items-center justify-center border-2 rounded-lg vbg shadow-md hover:shadow-lg hover:scale-105 transition-transform "
           onClick={() =>
             showPopup(
               "T-PADANAMURI",
@@ -56,9 +71,16 @@ const Projects = () => {
             )
           }
         >
-          <h1>
+          <h1 className='my-2'>
             <u>T-PADANAMURI</u>
           </h1>
+          <Image 
+            src="/Images/p3.jpg" 
+            alt="" 
+            width={300} 
+            height={400} 
+            className='rounded-2xl m-4'
+          />
         </div>
       </div>
 
