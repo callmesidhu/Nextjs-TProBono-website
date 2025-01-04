@@ -1,0 +1,38 @@
+/* Full-screen splash screen styling */
+.splash-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black; /* Background color */
+        position: relative;
+      }
+      
+      /* Image styling */
+      .splash-screen img {
+        z-index: 10; /* Ensure the image is above the spinner */
+        border-radius: 50%; /* Optional: Make the image circular */
+      }
+      
+      /* Spinner container */
+      .spinner {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border: 1px solid rgba(0, 0, 0, 0.1); 
+        border-top: 8px solid #2C275B; 
+        border-radius: 50%;
+        animation: spin 1.5s linear infinite;
+      }
+      
+      /* Keyframes for spinning */
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
