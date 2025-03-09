@@ -13,7 +13,7 @@ const Intro = () => {
         transition={{ duration: 1.5, ease: "easeInOut" }}
       >
         <Image 
-          src="/Images/logo.png" 
+          src="/images/logo.png" 
           alt="TProBono Logo" 
           width={350} 
           height={350} 

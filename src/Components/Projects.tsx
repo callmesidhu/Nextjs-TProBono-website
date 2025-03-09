@@ -48,7 +48,7 @@ const Projects = () => {
             <u>Smart Drinking Waters at CET</u>
           </h1>
           <Image
-            src="/Images/p1.jpg"
+            src="/images/p1.jpg"
             alt="Smart Water"
             width={300}
             height={400}
@@ -77,7 +77,7 @@ const Projects = () => {
             <u>Innovation Mentorship Programme</u>
           </h1>
           <Image
-            src="/Images/p2.jpg"
+            src="/images/p2.jpg"
             alt="Innovation Mentorship"
             width={300}
             height={400}
@@ -107,7 +107,7 @@ const Projects = () => {
             <u>T-PADANAMURI</u>
           </h1>
           <Image
-            src="/Images/p3.jpg"
+            src="/images/p3.jpg"
             alt="T-PADANAMURI"
             width={300}
             height={400}

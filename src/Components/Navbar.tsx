@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="text-2xl font-bold">
           <Image 
-            src="/Images/logo.png" 
+            src="/images/logo.png" 
             alt="TProBono Logo" 
             width={100} 
             height={100} 

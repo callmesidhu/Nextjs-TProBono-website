@@ -6,7 +6,7 @@ const Loader: React.FC = () => {
   return (
     <div className="splash-screen p-5 pl-10">
     <Image 
-  src="/Images/logo.png" 
+  src="/images/logo.png" 
   alt="TProBono Logo" 
   width={150} 
   height={150} 
